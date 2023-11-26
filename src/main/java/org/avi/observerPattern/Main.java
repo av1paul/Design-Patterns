@@ -1,10 +1,10 @@
-package org.example.observerPattern;
+package org.avi.observerPattern;
 
-import org.example.observerPattern.oberservable.IphoneObservable;
-import org.example.observerPattern.oberservable.StockObservable;
-import org.example.observerPattern.observer.EmailObserver;
-import org.example.observerPattern.observer.Observer;
-import org.example.observerPattern.observer.SmsObserver;
+import org.avi.observerPattern.oberservable.IphoneObservable;
+import org.avi.observerPattern.oberservable.StockObservable;
+import org.avi.observerPattern.observer.EmailObserver;
+import org.avi.observerPattern.observer.Observer;
+import org.avi.observerPattern.observer.SmsObserver;
 
 public class Main {
 

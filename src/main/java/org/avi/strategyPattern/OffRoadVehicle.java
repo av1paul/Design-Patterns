@@ -1,4 +1,4 @@
-package org.example.strategyPattern;
+package org.avi.strategyPattern;
 
 public class OffRoadVehicle extends Vehicle{
     public OffRoadVehicle() {

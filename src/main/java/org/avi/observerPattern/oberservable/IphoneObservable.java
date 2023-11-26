@@ -1,6 +1,6 @@
-package org.example.observerPattern.oberservable;
+package org.avi.observerPattern.oberservable;
 
-import org.example.observerPattern.observer.Observer;
+import org.avi.observerPattern.observer.Observer;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
-package org.example.observerPattern.oberservable;
+package org.avi.observerPattern.oberservable;
 
-import org.example.observerPattern.observer.Observer;
+import org.avi.observerPattern.observer.Observer;
 
 public interface StockObservable {
     void add(Observer observer);

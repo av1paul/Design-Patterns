@@ -1,6 +1,6 @@
-package org.example.observerPattern.observer;
+package org.avi.observerPattern.observer;
 
-import org.example.observerPattern.oberservable.StockObservable;
+import org.avi.observerPattern.oberservable.StockObservable;
 
 public class EmailObserver implements Observer {
     private final StockObservable observable;
