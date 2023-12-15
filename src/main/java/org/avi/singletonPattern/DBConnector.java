@@ -2,7 +2,7 @@ package org.avi.singletonPattern;
 
 public class DBConnector {
 
-    private static DBConnector connector;
+    private static volatile DBConnector connector;
 
     public DBConnector() {
     }
