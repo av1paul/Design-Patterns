@@ -6,6 +6,8 @@ import org.avi.mediatorPattern.mediator.Auction;
 import org.avi.mediatorPattern.mediator.AuctionMediator;
 
 public class Main {
+
+    // Also used for plane landing system for landing to see runway is free or not
     public static void main(String[] args) {
         AuctionMediator auctionManager = new Auction();
         Colleague a = new Bidder("A", auctionManager);
