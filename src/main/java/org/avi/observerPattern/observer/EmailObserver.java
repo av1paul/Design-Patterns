@@ -14,6 +14,6 @@ public class EmailObserver implements Observer {
     @Override
     public void update() {
         System.out.println("Hurry up back in stock");
-        System.out.println("Sending SMS to " + this.email);
+        System.out.println("Sending mail to " + this.email);
     }
 }
