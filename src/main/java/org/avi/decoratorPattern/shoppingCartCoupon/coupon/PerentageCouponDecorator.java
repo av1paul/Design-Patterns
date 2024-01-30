@@ -4,11 +4,10 @@ import org.avi.decoratorPattern.shoppingCartCoupon.product.Product;
 
 public class PerentageCouponDecorator extends CouponDecorator {
 
-    private Product product;
     private double discountPercentage;
 
     public PerentageCouponDecorator(Product product, double discountPercentage) {
-        this.product = product;
+        super(product);
         this.discountPercentage = discountPercentage;
     }
 
