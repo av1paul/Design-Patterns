@@ -6,6 +6,7 @@ public class Main {
         Student student1 = new EngineerStudentBuilder()
                 .setName("Avi")
                 .setAge(23)
+                .setSubjects()
                 .build();
         System.out.println(student1);
     }

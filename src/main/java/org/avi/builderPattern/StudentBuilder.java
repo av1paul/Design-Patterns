@@ -1,12 +1,13 @@
 package org.avi.builderPattern;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public abstract class StudentBuilder {
 
     private String name;
     private int age;
-    private List<String> subjects;
+    private List<String> subjects = new ArrayList<>();
 
     public String getName() {
         return name;
